@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ciburial Launchpad — Ciburial Eco Token (CBRL) on GIWA Sepolia</title>
+<meta name="description" content="Ciburial Launchpad is a community token launchpad built with the Ammora SDK. Featured launch: Ciburial Eco Token (CBRL), issued on a bonding curve on GIWA Sepolia testnet.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./">Ciburial&nbsp;Launchpad</a>
+    <div class="header-meta">
+      <span class="network-badge">GIWA Sepolia · Testnet · Chain 91342</span>
+      <a class="header-link" href="https://sepolia-explorer.giwa.io/address/0x0503D6E81429df3F518a64Cc4b05c4618DbE7708" target="_blank" rel="noopener">View token on explorer</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">A community launchpad, built with the Ammora SDK</p>
+    <h1>Token launches for the village, settled on-chain.</h1>
+    <p class="lede">Ciburial Launchpad issues community tokens on bonding curves through the
+      Ammora protocol — a reusable launch configuration, direct contract calls, and a clear
+      path from first trade to a graduated liquidity pool. It runs on GIWA Sepolia, the
+      testnet of GIWA Chain.</p>
+  </section>
+
+  <section class="launch" aria-labelledby="launch-title">
+    <div class="launch-head">
+      <div>
+        <p class="eyebrow">Featured launch</p>
+        <h2 id="launch-title">Ciburial Eco Token <span class="ticker">CBRL</span></h2>
+      </div>
+      <span class="status"><span class="status-dot" aria-hidden="true"></span>Curve active</span>
+    </div>
+
+    <p class="launch-desc">CBRL is the first token issued through Ciburial Launchpad, created for the
+      Ciburial eco-digital village community in Garut, West Java. It trades on an Ammora
+      bonding curve (ALC) and graduates to the ARL pool once the threshold is reached.</p>
+
+    <dl class="facts">
+      <div class="fact">
+        <dt>Token address</dt>
+        <dd>
+          <a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x0503D6E81429df3F518a64Cc4b05c4618DbE7708" target="_blank" rel="noopener" title="0x0503D6E81429df3F518a64Cc4b05c4618DbE7708">0x0503D6E81429df3F518a64Cc4b05c4618DbE7708</a>
+          <button class="copy-btn" type="button" data-copy="0x0503D6E81429df3F518a64Cc4b05c4618DbE7708">Copy</button>
+        </dd>
+      </div>
+      <div class="fact">
+        <dt>Bonding curve (ALC)</dt>
+        <dd>
+          <a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x3150eF2f5A654Dc723d585c99dE54235b2106131" target="_blank" rel="noopener" title="0x3150eF2f5A654Dc723d585c99dE54235b2106131">0x3150eF2f5A654Dc723d585c99dE54235b2106131</a>
+          <button class="copy-btn" type="button" data-copy="0x3150eF2f5A654Dc723d585c99dE54235b2106131">Copy</button>
+        </dd>
+      </div>
+      <div class="fact">
+        <dt>Launch configuration</dt>
+        <dd>Config ID 39 · <span class="mono" title="0xf2ebb57f8784a6d22cf1eaf0e8dc9f64087fbd0d69069e359e44ec98954161d1">hash 0xf2ebb5…61d1</span></dd>
+      </div>
+      <div class="fact">
+        <dt>Creator</dt>
+        <dd>
+          <a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x208CF730320529Abfa74E990242Dd37940eb4F0b" target="_blank" rel="noopener" title="0x208CF730320529Abfa74E990242Dd37940eb4F0b">0x208C…F0b</a>
+          <span class="fact-note">(launchpad wallet)</span>
+        </dd>
+      </div>
+      <div class="fact">
+        <dt>Sale supply</dt>
+        <dd>1,000,000 CBRL</dd>
+      </div>
+      <div class="fact">
+        <dt>Graduation threshold</dt>
+        <dd>0.05 WETH</dd>
+      </div>
+      <div class="fact">
+        <dt>First trade</dt>
+        <dd>0.0005 WETH → 961,534.73 CBRL</dd>
+      </div>
+      <div class="fact">
+        <dt>Total supply</dt>
+        <dd><span id="total-supply">1,000,200.08 CBRL</span></dd>
+      </div>
+    </dl>
+
+    <p class="live-note" id="live-note">Figures verified on-chain, 16 Nov 2026.
+      <span id="block-note"></span></p>
+
+    <div class="tx-links">
+      <a href="https://sepolia-explorer.giwa.io/tx/0xa4703eb2137236a395a277721144f9646b3801685d0d5f33e2c113ad6601422c" target="_blank" rel="noopener">Token creation transaction</a>
+      <a href="https://sepolia-explorer.giwa.io/tx/0x0eae1de1a074351ff3c78223943943f002370d38270a9a72e67e558aa6f9efa0" target="_blank" rel="noopener">First buy transaction</a>
+    </div>
+  </section>
+
+  <section class="how" aria-labelledby="how-title">
+    <h2 id="how-title">How it works</h2>
+    <ol class="steps">
+      <li>
+        <h3>1 · Configure</h3>
+        <p>A reusable launch Config is registered once — fee split, recipients, sale supply
+          and graduation threshold — and can back many token launches.</p>
+      </li>
+      <li>
+        <h3>2 · Issue</h3>
+        <p>A new token is issued through the launch factory against that Config, with its
+          own bonding curve (ALC) created in the same transaction.</p>
+      </li>
+      <li>
+        <h3>3 · Trade</h3>
+        <p>Anyone can buy and sell along the curve. Reserves and price are held entirely
+          by the curve contract; a 1% fee accrues to the fee vault.</p>
+      </li>
+      <li>
+        <h3>4 · Graduate</h3>
+        <p>When the curve reserve reaches the 0.05 WETH threshold, the launch graduates:
+          liquidity migrates to the ARL pool for open-market trading.</p>
+      </li>
+      <li>
+        <h3>5 · Claim fees</h3>
+        <p>Creator and partner fee shares are claimed from the fee vault, and LP fees from
+          the graduated pool — all by direct contract calls.</p>
+      </li>
+    </ol>
+    <p class="how-note">Powered by <span class="mono">@ammora-protocol/sdk</span> 0.3.9. The launchpad
+      talks to Ammora contracts directly through the chain RPC — no intermediary service
+      holds funds or keys.</p>
+  </section>
+
+  <section class="contracts" aria-labelledby="contracts-title">
+    <h2 id="contracts-title">Contracts</h2>
+    <p class="contracts-sub">GIWA Sepolia (chain 91342), Ammora auto-route generation.</p>
+    <table class="contracts-table">
+      <tbody>
+        <tr>
+          <th scope="row">CBRL token</th>
+          <td><a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x0503D6E81429df3F518a64Cc4b05c4618DbE7708" target="_blank" rel="noopener">0x0503D6E81429df3F518a64Cc4b05c4618DbE7708</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Bonding curve (ALC)</th>
+          <td><a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x3150eF2f5A654Dc723d585c99dE54235b2106131" target="_blank" rel="noopener">0x3150eF2f5A654Dc723d585c99dE54235b2106131</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Config registry</th>
+          <td><a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x6d043014972b87406C4757a5f2d655A24e0b0aF9" target="_blank" rel="noopener">0x6d043014972b87406C4757a5f2d655A24e0b0aF9</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Launch factory</th>
+          <td><a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x35353a2Dab7426EcCAe6f5FB267702a542ab68fA" target="_blank" rel="noopener">0x35353a2Dab7426EcCAe6f5FB267702a542ab68fA</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Fee vault</th>
+          <td><a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x414Be4a093fDFd7292dCa95C4D6fdD3905Ee6800" target="_blank" rel="noopener">0x414Be4a093fDFd7292dCa95C4D6fdD3905Ee6800</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Quote token (WETH)</th>
+          <td><a class="mono addr" href="https://sepolia-explorer.giwa.io/address/0x4200000000000000000000000000000000000006" target="_blank" rel="noopener">0x4200000000000000000000000000000000000006</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>Built with the Ammora SDK · Ciburial Launchpad, for the Ciburial eco-digital village.</p>
+    <p class="disclaimer">Testnet showcase: this site runs on GIWA Sepolia. All tokens and
+      balances are test assets with no real-world value. Nothing here is an offer to buy
+      or sell any asset.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
